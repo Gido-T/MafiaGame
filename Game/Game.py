@@ -1,14 +1,18 @@
 import random
+import json
 import math
 
 # Define roles
-expedition_roles = ['Janitorial-Worker', 'Night-Watch', 'Personnel-Officer', 'Detective', 'Mortician',
-                    'Bouncer', 'Blood-Brother', 'Insomniac', 'Record-Keeper', 'Martial-Judge',
-                    'Reserve', 'Captain', 'Duelist', 'Weapons-Master']
-ohne_knotchen_roles = ['Augenlos(Eyeless)', 'Seelenlos(Soulless)', 'Hirnlos(Brainless)', 'Selbstlos(Selfless)',
-                       'Stimmlos(Voiceless)', 'Gesichtslos(Faceless)', 'Lautlos(Soundless)', 'Blutlos(Bloodless)']
-cryptid_roles = ['Skin-Walker', 'Grim-Reaper', 'Wendigo', 'Moth-Man']
-solo_roles = ['Identity-Thief', 'Spy', 'Windergaste', 'Serial-Killer', 'Necromancer', 'Lawyer', 'Cult-Fanatic', 'Adversaries']
+expedition_roles = ["Janitorial-Worker", "Night-Watch", "Personnel-Officer", "Detective", "Mortician",
+"Bouncer", "Blood-Brother", "Insomniac", "Record-Keeper", "Martial-Judge",
+"Reserve", "Captain", "Duelist", "Weapons-Master"]
+
+ohne_knotchen_roles = ["Augenlos(Eyeless)", "Seelenlos(Soulless)", "Hirnlos(Brainless)", "Selbstlos(Selfless)",
+                        "Stimmlos(Voiceless)", "Gesichtslos(Faceless)", "Lautlos(Soundless)", "Blutlos(Bloodless)"]
+
+cryptid_roles = ["Skin-Walker", "Grim-Reaper", "Wendigo", "Moth-Man"]
+
+solo_roles = ["Identity-Thief", "Spy", "Windergaste", "Serial-Killer", "Necromancer", "Lawyer", "Cult-Fanatic", "Adversaries"]
 
 # Step 1: Get list of players from user
 input_names = input("Enter the names of all players, separated by commas: ")

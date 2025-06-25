@@ -1,0 +1,44 @@
+{
+    "expedition" : [
+        "Janitorial-Worker",
+        "Night-Watch",
+        "Personnel-Officer",
+        "Detective",
+        "Mortician",
+        "Bouncer",
+        "Blood-Brother",
+        "Insomniac",
+        "Record-Keeper",
+        "Martial-Judge",
+        "Reserve",
+        "Captain",
+        "Duelist", 
+        "Weapons-Master"
+    ],
+    "ohne_knotchen" : [
+        "Augenlos(Eyeless)",
+        "Seelenlos(Soulless)",
+        "Hirnlos(Brainless)",
+        "Selbstlos(Selfless)",
+        "Stimmlos(Voiceless)",
+        "Gesichtslos(Faceless)",
+        "Lautlos(Soundless)",
+        "Blutlos(Bloodless)"
+    ],
+    "cryptid" : [
+        "Skin-Walker",
+        "Grim-Reaper",
+        "Wendigo",
+        "Moth-Man"
+    ],
+    "solo" : [
+        "Identity-Thief",
+        "Spy",
+        "Windergaste",
+        "Serial-Killer",
+        "Necromancer",
+        "Lawyer",
+        "Cult-Fanatic",
+        "Adversaries"
+    ]
+}
