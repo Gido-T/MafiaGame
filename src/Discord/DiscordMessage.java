@@ -6,5 +6,7 @@ public class DiscordMessage {
 
     private String message;
 
-    private 
+    public class Builder {
+        
+    }
 }
